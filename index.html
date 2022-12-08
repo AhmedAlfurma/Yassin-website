@@ -74,16 +74,17 @@
             <div class="links">
               <a
                 href="https://www.facebook.com/profile.php?id=100083540316068"
+                id="facebook"
                 target="_blank"
                 ><i class="fa-brands fa-facebook"></i
               ></a>
               <a
                 href="https://api.whatsapp.com/send/?phone=%2B201204972592&text&type=phone_number&app_absent=0"
                 target="_blank"
+                id="whatsapp"
                 ><i class="fa-brands fa-whatsapp"></i
               ></a>
             </div>
-            <!-- <a href="#" class="btn">نبذه عني</a> -->
           </div>
           <div class="image">
             <span></span>
@@ -230,17 +231,19 @@
             <form>
               <h2>ارسال رسالة</h2>
               <div class="input-box">
-                <input type="text" required name="name" />
+                <label for="name"></label>
+                <input type="text" id="name" required name="name" />
                 <span>الاسم</span>
               </div>
               <div class="input-box">
-                <input type="text" required name="mail" />
+                <label for="mail"></label>
+                <input type="text" id="mail" required name="mail" />
                 <span>الايميل</span>
               </div>
               <div class="input-box">
+                <label for="massage"></label>
                 <textarea
-                  name=""
-                  id=""
+                  id="massage"
                   cols="30"
                   rows="10"
                   required

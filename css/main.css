@@ -422,23 +422,6 @@ main .landing .links a:hover {
   transform: scale(1.04);
   background-color: var(--main-color);
 }
-main .landing .btn {
-  display: block;
-  width: fit-content;
-  padding: 1rem 4rem;
-  border: 1px solid var(--main-color);
-  color: #fff;
-  background-color: var(--main-color);
-  border-radius: 7rem;
-  font-size: 1.7rem;
-  box-shadow: 0 5px 5px #ddd;
-  transition: var(--main-transtion);
-}
-main .landing .btn:hover {
-  background-color: transparent;
-  color: var(--main-color);
-  transform: scale(1.02);
-}
 main .landing img {
   width: 20rem;
   transition: var(--main-transtion);
